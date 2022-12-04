@@ -18,6 +18,7 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
@@ -32,5 +33,12 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        var boxer1Weight = 78.2;
+        var boxer2Weight = 82.7;
+        var commonWeight = boxer1Weight + boxer2Weight;
+        System.out.println("Общий вес бойцов составляет " + commonWeight + " кг");
+        var weightDifference = boxer2Weight - boxer1Weight;
+        System.out.println("Разница в весе бойцов составляет " + weightDifference + " кг");
     }
 }
