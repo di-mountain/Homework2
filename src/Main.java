@@ -42,5 +42,13 @@ public class Main {
         System.out.println("Разница в весе бойцов составляет " + weightDifference + " кг");
         var weightDifferenceAlternative = boxer2Weight % boxer1Weight;
         System.out.println("Разница в весе бойцов составляет " + weightDifferenceAlternative + " кг");
+
+        var jobTime = 640;
+        var jobTimeDay = 8;
+        var workers = jobTime / jobTimeDay;
+        System.out.println("Всего работников в компании – " + workers + " человек");
+        workers = workers + 94;
+        jobTime = jobTimeDay * workers;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + jobTime + " часов работы может быть поделено между сотрудниками");
     }
 }
